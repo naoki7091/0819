@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@1,300&display=swap" rel="stylesheet">
+    <title><%= title %></title>
+    <link rel='stylesheet' href='/stylesheets/style.css' />
+  </head>
+  <body>
+    <div class="todo">
+      <h1>今日やること</h1>
+      <ul>
+        <li>作業する環境</li>
+        <li>gitおよびgit hubの説明</li>
+        <li>node.jsのダウンロード</li>
+        <li>今後の予定</li>
+      </ul>
+    </div>
+
+    <div class="No1">
+      <h2>作業する環境</h2>
+      今までは、webexで会議などを行っていました。これからは、discordで行います。皆には、事前準備として、
+      discordの登録を行ってもらうように言っていたのは、このためです。discordはゲームやる人なら使ったこと
+      がある人が多いと思います。<br>
+      登録したら、自分のユーザ番号的なものが与えられるので、それを教えてくださいー！<br>
+      <form action="/" class="discordname" method="POST">
+        名前,#〇〇〇〇:<input  require type="text" name="add" value="名前,#番号"><br>
+        <input type="submit" value="追加"/>
+      </form>
+    </div>
+    
+    <div class="No2">
+      <h2>gitおよびgit hubの説明</h2>
+      大石が作成してくれた
+      <a href="images/ooishi.pdf" target="_blank">資料</a>
+      を参考。とても分かりやすい資料なので、わからなくなったら熟読しておくようにしてください。
+      また、資料に沿ってgitに慣れよう!正直、去年最も苦戦したのはgitの操作です。今年、一回やって慣れておくと、就職
+      したときとかに、git使えるので有利になると思います。プログラムとかの企業では必須になると思います。
+    </div>
+    
+    <div class="No3">
+      <h2>node.jsのダウンロード</h2>
+      noe.jsについての理解は、難しいので興味を持った人はぜひ勉強してください。webアプリなどを作ることができたりと
+      作ってみたい何かがあったときに勉強すると自分の力がつくと思います。今回は、node.jsのDLを行ってもらいます。
+      次にページからDLしてください!
+      <a href="https://nodejs.org/download/release/v14.17.6/" target="_blank">リンク</a>
+      <img src="images/nodeDl.png"class="kakunin" width="70%">
+      <br>
+      ここで、64と86がありますが、自分のパソコンによって異なるので、確認方法を以下に示します。(皆64bitだと思います)<br>
+      <ul>
+        <li>設定を開く</li>
+        <li>システムを開く</li>
+        <li>バージョン情報を開く</li>
+        <li>システムの種類に記載</li>
+      </ul>
+    </div>
+
+    <div class="No4">
+      <h2>今後の予定</h2>
+      各、企画からの情報が入り次第、サイトを作っていきます。役割分担については、2,3年生で組むので、決まったら
+      連絡します。製作にあたって、以下のような手順で作っていきます。
+      <ul>
+        <li>情報を元に、草案(手書きなどでページの完成イメージ)を書く</li>
+        <li>草案を提出する(2,3年生が確認して無理などがないかを確認)</li>
+        <li>実際にコードにして、ページを実装していく</li>
+      </ul>
+      このような手順で、製作していきますので、頑張っていきましょうね!
+    </div>
+  </body>
+</html>

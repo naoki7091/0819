@@ -1,0 +1,39 @@
+body {
+  padding: 0 10rem;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+*{
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: bold;
+  color: rgb(47, 45, 45);
+}
+
+.todo{
+  text-align: center;
+}
+.todo ul li{
+  list-style: none;
+}
+
+h1{
+  color: black;
+}
+
+h2{
+  color: black;
+  border-bottom: black solid;
+  margin-bottom: 2rem;
+}
+
+a {
+  color: #00B7FF;
+}
+
+.discordname{
+  text-align: center;
+  margin-top: 1rem;
+}
+
+.kakunin{
+  margin: 1rem;
+}
